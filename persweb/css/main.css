@@ -1,0 +1,171 @@
+body{
+	background-color: #FF7F50;
+	text-align: center;
+}
+
+.container{
+	background: #FFF;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+.col-90 {
+	width: 90%;
+}
+.col-60 {
+	width: 60%;
+}
+
+.btn {
+	background-color: 64950;
+	padding: 10px;
+	border: none;
+	border-radius: 7px;
+}
+
+.btn:hover {
+	background-color: #fff8dc;
+}
+
+header{
+	background-color: 64950;
+	color: #FFF;
+	padding-bottom: 18px;
+}
+header h1{
+	font-size: 35px;
+	margin: 0px;
+	background-color: #fff8dc;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #dc143c;
+}
+header h3{
+	font-size: 15px;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	display: inline-block;
+	padding: 3px 5px;
+	background-color: #ffd700;
+	color: #dc143c; 
+}
+header img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid #f8f8ff;
+}
+
+/* about */
+#about {
+	background-color: #f0e68c;
+	padding: 0px 40px 18px;
+}
+#about h2{
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	display: inline-block;
+	padding: 3px 5px;
+	background-color: #ffd700;
+	color: #dc143c; 
+
+}
+/* gallery */
+#gallery{
+	background-color: #E0ffff;
+	padding: 0px 50px 25px;
+}
+#gallery h2{
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	display: inline-block;
+	padding: 3px 5px;
+	background-color: #ffd700;
+	color: #dc143c; 
+}
+#gallery ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 7px; 
+}
+#gallery ul li:hover{
+	background-color: #ade8e6;
+}
+
+/* contact */
+#contact{
+	background-color: #90ee90;
+	padding: 0px 30px 15px;
+}
+
+#contact h2{
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	display: inline-block;
+	padding: 3px 5px;
+	background-color: #ffd700;
+	color: #dc143c;
+	
+}
+
+#contact img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 2px solid #f8f8ff;
+	padding: 3px;
+	margin-top: 40px;
+}
+
+#contact form {
+	padding: 15px;
+	color: #cc0099;
+}
+
+#contact input, #contact textarea {
+	padding: 13px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-color: #ffff33;
+}
+
+#social_link{
+	background-color: #ffccff;
+}
+
+footer {
+	background-color: #3399cc;
+	padding: 10px;
+}
+
+footer p {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
